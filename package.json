@@ -5,7 +5,7 @@
   "author": "aimee",
   "private": true,
   "scripts": {
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
